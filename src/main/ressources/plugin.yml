@@ -1,0 +1,10 @@
+name: SkSimplify
+authors:
+  - DevAnonyme
+version: 1.0 §7(Beta)
+main: main.java.fr.devanonyme.sksimplify.SkSimplify
+depend:
+  - Skript
+commands:
+  sksimplify:
+    aliases: sks
