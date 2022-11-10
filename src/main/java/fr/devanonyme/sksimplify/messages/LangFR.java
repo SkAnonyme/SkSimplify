@@ -19,7 +19,7 @@ public enum LangFR {
     file_exist("§cCe skript est déjà existant !"),
     file_not_exist("§cCe skript est n'existe pas !"),
 
-    skript_created("§aSkript crée"),
+    skript_created("§aSkript crée."),
     skript_deleted("§aSkript supprimé."),
 
     book_creation("§aCréation du livre de manipulation."),

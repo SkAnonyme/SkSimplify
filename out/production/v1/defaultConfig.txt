@@ -1,0 +1,16 @@
+# Ceci est modifiable dans "plugins/SkSimplify/defaultConfig.txt"
+# SkSimplify by: DevAnonyme (https://skript-mc.fr/forum/files/file/492-sksimplify/)
+
+# Skript crée par: <Nom du développeur>
+# Aidé par: <Nom des autres développeur>
+# Version du Skript: <Version du skript>
+
+options:
+  command: command
+  permission: permission
+  permission_message: permission message
+
+command /{@command} [<text>]:
+  permission: {@permission}
+  permission message: {@permission_message}
+  trigger:

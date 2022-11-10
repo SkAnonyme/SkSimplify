@@ -13,6 +13,9 @@ public class SkSimplify extends JavaPlugin {
     public void onEnable() {
         instance = this;
 
+        this.saveResource("config.yml", false);
+        this.saveResource("defaultConfig.txt", false);
+
         getCommand("sksimplify").setExecutor(new SkSimplifyCommand());
         Bukkit.getPluginManager().registerEvents(new PlayerListener(), this);
     }
@@ -24,5 +27,9 @@ public class SkSimplify extends JavaPlugin {
 
     public static SkSimplify getInstance() {
         return instance;
+    }
+
+    public static String getLang() {
+        return SkSimplify.getInstance().getConfig().getString("lang");
     }
 }
